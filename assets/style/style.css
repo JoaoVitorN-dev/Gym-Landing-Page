@@ -1,0 +1,101 @@
+* {
+    color: #FFF;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-image: url('../images/workout.png');
+    padding-top: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu li {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #b8bcbc;
+}
+
+#menu li:hover {
+    border-bottom: 1px solid #03c0e9;
+    cursor: pointer;
+}
+
+#menu .active {
+    border-bottom: 1px solid #03c0e9;
+    color: #fff;
+}
+
+.titleAndChanels {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    width: 400px;
+}
+
+.title>h1 {
+    font-family: 'League Spartan';
+    font-size: 88.5px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.iconsChanel {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.iconsChanel>img {
+    width: 35px;
+    height: 35px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonDiscount {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonDiscount>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #03c0e9;
+    text-align: center;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    gap: 10px;
+    font-size: 22px;
+    height: 40px;
+}
+
+.buttonDiscount>button>img {
+    height: 30px;
+    width: 30px;
+}
+
+.buttonDiscount>button:hover {
+    cursor: pointer;
+}
+
+.buttonDiscount>p {
+    margin-left: 30px;
+    color: #f7f7f7;
+    font-size: 18px;
+}
